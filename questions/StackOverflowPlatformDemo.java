@@ -79,6 +79,8 @@ class Answer extends Post {
         super(content, author);
     }
 
+
+
     public void addComment(Comment c) {
         comments.add(c);
     }
